@@ -1,21 +1,20 @@
 <img src="https://bit.ly/2VnXWr2" width="100"/>
 
-# 420
+# Clean shark, happy shark
 Zahid Sánchez Barrón
 
 DAPT CDMX March 2020
 
 ## Content
 - [Introduction](#introduction) 
-- [Links](#links)
+- [Process](#process)
 
 <a name="introduction"></a>
 
 ## Introduction
-Recopilation of Marijuana, with detailed strain information.
+Information about different shark attacks. Original data "attacks.csv".
 
-<a name="links"></a>
+<a name="process"></a>
 
-## Links
-[API Documentation](http://strains.evanbusse.com/)
-[Leafly](https://www.leafly.com/)
+## Process
+Columns were cleaned one by one using regex filtering and applying functions, were turned into categorical when possible. Useless data was removed from dataframe, some columns where removed or merged. Columns were renamed and reordered. One-hot was added at end of dataframe. 
